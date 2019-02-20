@@ -1,8 +1,8 @@
 <?php
 
-$dbServername="localhost";
+$dbhost="localhost:3306";
 $dbUsername="root";
 $dbPassword="";
-$dbName="loginsys"
+$dbName="loginsys";
 
-$conn=mysqli_connect($dbServername,$dbUsername,$dbUsername,$dbPassword);
+$conn=mysqli_connect($dbhost,$dbUsername,$dbPassword);
