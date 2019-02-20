@@ -1,7 +1,7 @@
 <?php
 
 $dbServername="localhost";
-$dbUsername="root"
+$dbUsername="root";
 $dbPassword="";
 $dbName="loginsys"
 

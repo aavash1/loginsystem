@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_POST['submit'])){
-	include_once 'dbconn.php';
+	include_once '../dbconn.php';
 
 	$first=mysqli_real_escape_string($conn,$_POST['first']);
 	$last=mysqli_real_escape_string($conn,$_POST['last']);
